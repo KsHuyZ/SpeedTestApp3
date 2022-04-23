@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/speed_layout">
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:backgroundTint="@color/backGround"-->
+<!--        android:orientation="vertical">-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:background="#FF3F51B5"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:weightSum="1">-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/imageView3"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="35dp"-->
+<!--                android:layout_marginTop="5dp"-->
+<!--                app:srcCompat="@drawable/logo" />-->
+
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:baselineAligned="false"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:weightSum="3">-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="1"-->
+<!--                android:orientation="vertical">-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/textView"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginTop="15dp"-->
+<!--                    android:text="PING"-->
+<!--                    android:drawableStart="@drawable/ic_baseline_wifi_24"-->
+<!--                    android:gravity="center"-->
+<!--                    android:textAlignment="center"-->
+<!--                    android:textColor="#FF3AF3FF"-->
+<!--                    android:textSize="12sp"-->
+<!--                    android:textStyle="normal|bold" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/total_speed"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="0 ms"-->
+<!--                    android:textAlignment="center"-->
+<!--                    android:textColor="@android:color/background_light"-->
+<!--                    android:textSize="20sp" />-->
+
+<!--                <LinearLayout-->
+<!--                    android:id="@+id/chartPing"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:orientation="vertical">-->
+
+<!--                </LinearLayout>-->
+
+<!--            </LinearLayout>-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="1"-->
+<!--                android:orientation="vertical">-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/textView2"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginTop="15dp"-->
+<!--                    android:text="DOWNLOAD"-->
+<!--                    android:drawableStart="@drawable/download_icon"-->
+<!--                    android:gravity="center"-->
+<!--                    android:textAlignment="center"-->
+<!--                    android:textColor="#FF3AF3FF"-->
+<!--                    android:textSize="12sp"-->
+<!--                    android:textStyle="normal|bold" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/download"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="0 Mbps"-->
+<!--                    android:textAlignment="center"-->
+<!--                    android:textColor="@android:color/background_light"-->
+<!--                    android:textSize="20sp" />-->
+
+<!--                <LinearLayout-->
+<!--                    android:id="@+id/chartDownload"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:orientation="vertical" />-->
+<!--            </LinearLayout>-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="1"-->
+<!--                android:orientation="vertical">-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/textView3"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginTop="15dp"-->
+<!--                    android:text="UPLOAD"-->
+<!--                    android:drawableStart="@drawable/ic_baseline_arrow_upward_24"-->
+<!--                    android:gravity="center"-->
+<!--                    android:textAlignment="center"-->
+<!--                    android:textColor="#FF3AF3FF"-->
+<!--                    android:textSize="12sp"-->
+<!--                    android:textStyle="normal|bold" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/upload"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="0 Mbps"-->
+<!--                    android:textAlignment="center"-->
+<!--                    android:textColor="@android:color/background_light"-->
+<!--                    android:textSize="20sp" />-->
+
+<!--                <LinearLayout-->
+<!--                    android:id="@+id/chartUpload"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:orientation="vertical">-->
+
+<!--                </LinearLayout>-->
+
+<!--            </LinearLayout>-->
+
+<!--        </LinearLayout>-->
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="450dp"-->
+<!--            >-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/imageView"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_alignParentStart="true"-->
+<!--                android:layout_alignParentEnd="true"-->
+<!--                app:srcCompat="@drawable/main"-->
+<!--                />-->
+
+<!--            <ImageView-->
+<!--                android:id="@+id/barImageVieww"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_alignParentTop="true"-->
+<!--                android:layout_centerHorizontal="true"-->
+<!--                app:srcCompat="@drawable/bar" />-->
+
+
+
+
+
+
+<!--        </RelativeLayout>-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:gravity="center">-->
+
+<!--            <Button-->
+<!--                android:id="@+id/rotate_button"-->
+<!--                style="@style/Widget.AppCompat.Button.Colored"-->
+<!--                android:layout_width="200dp"-->
+
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_alignParentStart="true"-->
+
+<!--                android:background="@drawable/border_button"-->
+<!--                android:elevation="0dp"-->
+<!--                android:shadowRadius="15"-->
+<!--                android:text="Begin Test"-->
+<!--                android:textAllCaps="false"-->
+<!--                android:textColor="#2d3a4a"-->
+
+<!--                android:textSize="16sp" />-->
+<!--        </LinearLayout>-->
+
+<!--    </LinearLayout>-->
+
+
+
+</FrameLayout>

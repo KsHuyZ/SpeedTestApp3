@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="20dp"
+        android:gravity="center">
+
+        <TextView
+        android:gravity="center"
+            android:layout_weight="2"
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date"/>
+        <TextView
+            android:gravity="center"
+            android:layout_weight="2"
+            android:id="@+id/download_speed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Download"/>
+        <TextView
+            android:gravity="center"
+            android:layout_weight="2"
+            android:id="@+id/upload_speed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Upload"/>
+        <TextView
+            android:gravity="center"
+            android:layout_weight="2"
+            android:id="@+id/ping"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ping"/>
+    </LinearLayout>
+
+</LinearLayout>
